@@ -4,7 +4,7 @@ A module for logging in Azure DevOps Pipelines
 
 | Metadata | Information |
 | --- | --- |
-| Version | 1.0.2 |
+| Version | 1.1.0 |
 | Author | Marius Solbakken Mellum |
 | Company name | Good Workaround |
 | PowerShell version | 5.1 |
