@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/goodworkaround/PS-ADOLogging/compare/v1.0.0...v1.0.1) (2024-08-02)
+
+
+### Bug Fixes
+
+* Fix space in tags that causes issues when deploying to PS Gallery ([3e4a602](https://github.com/goodworkaround/PS-ADOLogging/commit/3e4a6021e0c6c76f5d155a231ab28e338d0e370d))
+
 ## 1.0.0 (2024-08-02)
 
 
