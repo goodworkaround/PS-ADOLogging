@@ -29,7 +29,7 @@
     Description       = 'A module for logging in Azure DevOps Pipelines'
 
     # Minimum version of the PowerShell engine required by this module
-    PowerShellVersion = '5'
+    PowerShellVersion = '5.1'
 
     # Name of the PowerShell host required by this module
     # PowerShellHostName = ''

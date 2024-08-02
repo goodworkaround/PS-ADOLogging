@@ -44,12 +44,12 @@ function Write-ADOError {
         [string] $Code
     )
 
-    $properties = "type=error",
-    ($SourcePath ? "sourcepath=$SourcePath" : $null),
-    ($LineNumber -ne -1 ? "linenumber=$LineNumber" : $null),
-    ($ColumnNumber -ne -1 ? "columnnumber=$ColumnNumber" : $null),
-    ($Code ? "code=$Code"  : $null) |
-    Where-Object {$_}
+    $properties = New-Object System.Collections.ArrayList
+    $properties.Add("type=error") | Out-Null
+    if($SourcePath) { $properties.Add("sourcepath=$SourcePath") | Out-Null }
+    if($LineNumber -ne -1) { $properties.Add("linenumber=$LineNumber") | Out-Null }
+    if($ColumnNumber -ne -1) { $properties.Add("columnnumber=$ColumnNumber") | Out-Null }
+    if($Code) { $properties.Add("code=$Code") | Out-Null }
     
     Write-Host "##vso[task.logissue $($properties -join ";")]$Message"
 }
