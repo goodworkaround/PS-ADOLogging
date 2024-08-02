@@ -88,7 +88,7 @@
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
     PrivateData       = @{
         PSData = @{
-            Tags       = @('AzureDevOps','ADO','Logging')
+            Tags       = @('AzureDevOps','ADO','Logging', 'PSEdition_Desktop', 'PSEdition_Core', 'Windows', 'Linux', 'MacOS')
             ProjectUri = "https://github.com/goodworkaround/PS-ADOLogging"
         }
     }
