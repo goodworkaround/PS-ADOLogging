@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/goodworkaround/PS-ADOLogging/compare/v1.0.2...v1.1.0) (2024-08-02)
+
+
+### Features
+
+* Add cmdlet Set-ADOVariable ([14faea3](https://github.com/goodworkaround/PS-ADOLogging/commit/14faea3711dc143fe62ee43370267c5a7468fe78))
+* Add cmdlet Write-ADOArtifact for uploading files to Azure DevOps artifacts ([9a2a856](https://github.com/goodworkaround/PS-ADOLogging/commit/9a2a85677ae2648624d5f7457e32cb67b597eae6))
+
 ## [1.0.2](https://github.com/goodworkaround/PS-ADOLogging/compare/v1.0.1...v1.0.2) (2024-08-02)
 
 
