@@ -1,5 +1,5 @@
 # Get public and private function definition files.
-$Private = @( Get-ChildItem -Path $PSScriptRoot\Private\*.ps1 -ErrorAction SilentlyContinue )
+$Private = (Test-Path "$PSScriptRoot\Private") ? @( Get-ChildItem -Path $PSScriptRoot\Private\*.ps1 -ErrorAction SilentlyContinue ) : @()
 $Public = @( Get-ChildItem -Path $PSScriptRoot\Public\*.ps1 -ErrorAction SilentlyContinue )
 
 # Dot source the files in order to define all cmdlets
