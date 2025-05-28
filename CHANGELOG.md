@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/goodworkaround/PS-ADOLogging/compare/v1.1.0...v1.1.1) (2025-05-28)
+
+
+### Bug Fixes
+
+* Do not put anything into $Error when Private folder does not exist ([5f9b14e](https://github.com/goodworkaround/PS-ADOLogging/commit/5f9b14e20e061ad443193177c84498e730bf7fc5))
+
 ## [1.1.0](https://github.com/goodworkaround/PS-ADOLogging/compare/v1.0.2...v1.1.0) (2024-08-02)
 
 
